@@ -1,0 +1,452 @@
+Uri: https://tezobank.com/
+File Name: C:\Downloaded Web Sites\tezobank.com\index.htm
+Content Type: text/html
+
+Uri: https://tezobank.com/assets/img/bg2.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\bg2.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/main-banner/banner-bg-2.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\main-banner\banner-bg-2.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://tezobank.com/assets/css/animate.min.css
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\css\animate.min.css
+Content Type: text/css
+
+Uri: https://tezobank.com/assets/css/meanmenu.css
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\css\meanmenu.css
+Content Type: text/css
+
+Uri: https://tezobank.com/assets/css/boxicons.min.css
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\css\boxicons.min.css
+Content Type: text/css
+
+Uri: https://tezobank.com/assets/css/flaticon.css
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\css\flaticon.css
+Content Type: text/css
+
+Uri: https://tezobank.com/assets/css/nice-select.min.css
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\css\nice-select.min.css
+Content Type: text/css
+
+Uri: https://tezobank.com/assets/css/owl.carousel.min.css
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\css\owl.carousel.min.css
+Content Type: text/css
+
+Uri: https://tezobank.com/assets/css/owl.theme.default.min.css
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\css\owl.theme.default.min.css
+Content Type: text/css
+
+Uri: https://tezobank.com/assets/css/odometer.min.css
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\css\odometer.min.css
+Content Type: text/css
+
+Uri: https://tezobank.com/assets/css/magnific-popup.min.css
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\css\magnific-popup.min.css
+Content Type: text/css
+
+Uri: https://tezobank.com/assets/css/style.css
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\css\style.css
+Content Type: text/css
+
+Uri: https://tezobank.com/assets/css/responsive.css
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\css\responsive.css
+Content Type: text/css
+
+Uri: https://tezobank.com/assets/dashboard/icon_fonts_assets/font-awesome/css/font-awesome.min.css
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\dashboard\icon_fonts_assets\font-awesome\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: https://tezobank.com/assets/img/favicon.png
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\favicon.png
+Content Type: image/png
+
+Uri: https://tezobank.com/page/view/atm-and-bank-locations
+File Name: C:\Downloaded Web Sites\tezobank.com\page\view\atm-and-bank-locations.html
+Content Type: text/html
+
+Uri: https://tezobank.com/user/login
+File Name: C:\Downloaded Web Sites\tezobank.com\user\login.html
+Content Type: text/html
+
+Uri: https://tezobank.com/page/view/credit-cards
+File Name: C:\Downloaded Web Sites\tezobank.com\page\view\credit-cards.html
+Content Type: text/html
+
+Uri: https://tezobank.com/page/view/open-account
+File Name: C:\Downloaded Web Sites\tezobank.com\page\view\open-account.html
+Content Type: text/html
+
+Uri: https://tezobank.com/page/view/contacts
+File Name: C:\Downloaded Web Sites\tezobank.com\page\view\contacts.html
+Content Type: text/html
+
+Uri: https://api.whatsapp.com/send?phone=
+File Name: C:\Downloaded Web Sites\tezobank.com\send.html
+Content Type: text/html
+
+Uri: https://tezobank.com/page/view/faq
+File Name: C:\Downloaded Web Sites\tezobank.com\page\view\faq.html
+Content Type: text/html
+
+Uri: https://tezobank.com/assets/img/logo.png
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\logo.png
+Content Type: image/png
+
+Uri: https://tezobank.com/assets/img/credit-card/credit-card-1.png?
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\credit-card\credit-card-1.png
+Content Type: image/png
+
+Uri: https://tezobank.com/assets/img/credit-card/credit-card-2.png?
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\credit-card\credit-card-2.png
+Content Type: image/png
+
+Uri: https://tezobank.com/assets/img/location-map.png
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\location-map.png
+Content Type: image/png
+
+Uri: https://tezobank.com/assets/js/jquery.min.js
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\js\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://tezobank.com/assets/js/popper.min.js
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\js\popper.min.js
+Content Type: application/javascript
+
+Uri: https://tezobank.com/assets/js/bootstrap.min.js
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://tezobank.com/assets/js/jquery.meanmenu.js
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\js\jquery.meanmenu.js
+Content Type: application/javascript
+
+Uri: https://tezobank.com/assets/js/jquery.nice-select.min.js
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\js\jquery.nice-select.min.js
+Content Type: application/javascript
+
+Uri: https://tezobank.com/assets/js/owl.carousel.min.js
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\js\owl.carousel.min.js
+Content Type: application/javascript
+
+Uri: https://tezobank.com/assets/js/jquery.magnific-popup.min.js
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\js\jquery.magnific-popup.min.js
+Content Type: application/javascript
+
+Uri: https://tezobank.com/assets/js/odometer.min.js
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\js\odometer.min.js
+Content Type: application/javascript
+
+Uri: https://tezobank.com/assets/js/jquery.appear.min.js
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\js\jquery.appear.min.js
+Content Type: application/javascript
+
+Uri: https://tezobank.com/assets/js/jquery.ajaxchimp.min.js
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\js\jquery.ajaxchimp.min.js
+Content Type: application/javascript
+
+Uri: https://tezobank.com/assets/js/form-validator.min.js
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\js\form-validator.min.js
+Content Type: application/javascript
+
+Uri: https://tezobank.com/assets/js/contact-form-script.js
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\js\contact-form-script.js
+Content Type: application/javascript
+
+Uri: https://tezobank.com/assets/js/wow.min.js
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\js\wow.min.js
+Content Type: application/javascript
+
+Uri: https://tezobank.com/assets/js/main.js
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\js\main.js
+Content Type: application/javascript
+
+Uri: https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit
+File Name: C:\Downloaded Web Sites\tezobank.com\translate_a\element.js
+Content Type: text/javascript
+
+Uri: https://tezobank.com/assets/fonts/boxicons.eot
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\fonts\boxicons.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://tezobank.com/assets/fonts/boxicons.woff2
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\fonts\boxicons.woff2
+Content Type: font/woff2
+
+Uri: https://tezobank.com/assets/fonts/boxicons.woff
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\fonts\boxicons.woff
+Content Type: font/woff
+
+Uri: https://tezobank.com/assets/fonts/boxicons.ttf
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\fonts\boxicons.ttf
+Content Type: font/ttf
+
+Uri: https://tezobank.com/assets/fonts/boxiconsd41d.svg?
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\fonts\boxiconsd41d.svg
+Content Type: image/svg+xml
+
+Uri: https://tezobank.com/assets/fonts/Flaticon.eot
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\fonts\Flaticon.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://tezobank.com/assets/fonts/Flaticond41d.eot?
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\fonts\Flaticond41d.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://tezobank.com/assets/fonts/Flaticon.woff2
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\fonts\Flaticon.woff2
+Content Type: font/woff2
+
+Uri: https://tezobank.com/assets/fonts/Flaticon.woff
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\fonts\Flaticon.woff
+Content Type: font/woff
+
+Uri: https://tezobank.com/assets/fonts/Flaticon.ttf
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\fonts\Flaticon.ttf
+Content Type: font/ttf
+
+Uri: https://tezobank.com/assets/fonts/Flaticon.svg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\fonts\Flaticon.svg
+Content Type: image/svg+xml
+
+Uri: https://tezobank.com/assets/css/owl.video.play.html
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\css\owl.video.play.html
+Content Type: text/html
+
+Uri: https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;display=swap
+File Name: C:\Downloaded Web Sites\tezobank.com\css2.css
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap
+File Name: C:\Downloaded Web Sites\tezobank.com\css2-1.css
+Content Type: text/css
+
+Uri: https://tezobank.com/assets/img/main-banner/banner-bg-1.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\main-banner\banner-bg-1.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/banking/banking-2.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\banking\banking-2.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/fun-facts-bg.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\fun-facts-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/fun-facts-bg-2.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\fun-facts-bg-2.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/protect.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\protect.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/services-bg.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\services-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/below.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\below.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/customer-bg.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\customer-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/app-bg.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\app-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/app-bg-2.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\app-bg-2.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/partner/partner-bg.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\partner\partner-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/about.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\about.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/overview/overview-1.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\overview\overview-1.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/overview/overview-2.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\overview\overview-2.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/goals.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\goals.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/subscribe-bg.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\subscribe-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/page-banner/page-banner-1.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\page-banner\page-banner-1.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/page-banner/page-banner-2.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\page-banner\page-banner-2.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/page-banner/page-banner-3.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\page-banner\page-banner-3.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/page-banner/page-banner-4.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\page-banner\page-banner-4.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/page-banner/page-banner-5.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\page-banner\page-banner-5.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/services-details/services-details-2.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\services-details\services-details-2.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/sign-in-form.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\sign-in-form.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/register-form.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\register-form.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/contact-bg.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\contact-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/blog/blog-1.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\blog\blog-1.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/blog/blog-2.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\blog\blog-2.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/blog/blog-3.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\blog\blog-3.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/blog/blog-4.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\blog\blog-4.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/blog/blog-5.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\blog\blog-5.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/blog/blog-6.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\blog\blog-6.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/blog/blog-7.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\blog\blog-7.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/blog/blog-8.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\blog\blog-8.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/blog/blog-9.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\blog\blog-9.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/open-account-bg.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\open-account-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/security.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\security.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/advice.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\advice.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/online.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\online.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/personal-loan.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\personal-loan.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/types-loan.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\types-loan.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/img/apply.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\apply.jpg
+Content Type: image/jpeg
+
+Uri: https://tezobank.com/assets/dashboard/icon_fonts_assets/font-awesome/fonts/fontawesome-webfont3e6e.eot?v=4.7.0
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\dashboard\icon_fonts_assets\font-awesome\fonts\fontawesome-webfont3e6e.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://tezobank.com/assets/dashboard/icon_fonts_assets/font-awesome/fonts/fontawesome-webfontd41d.eot?
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\dashboard\icon_fonts_assets\font-awesome\fonts\fontawesome-webfontd41d.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://tezobank.com/assets/dashboard/icon_fonts_assets/font-awesome/fonts/fontawesome-webfont3e6e.woff2?v=4.7.0
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\dashboard\icon_fonts_assets\font-awesome\fonts\fontawesome-webfont3e6e.woff2
+Content Type: font/woff2
+
+Uri: https://tezobank.com/assets/dashboard/icon_fonts_assets/font-awesome/fonts/fontawesome-webfont3e6e.woff?v=4.7.0
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\dashboard\icon_fonts_assets\font-awesome\fonts\fontawesome-webfont3e6e.woff
+Content Type: font/woff
+
+Uri: https://tezobank.com/assets/dashboard/icon_fonts_assets/font-awesome/fonts/fontawesome-webfont3e6e.ttf?v=4.7.0
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\dashboard\icon_fonts_assets\font-awesome\fonts\fontawesome-webfont3e6e.ttf
+Content Type: font/ttf
+
+Uri: https://tezobank.com/assets/dashboard/icon_fonts_assets/font-awesome/fonts/fontawesome-webfont3e6e.svg?v=4.7.0
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\dashboard\icon_fonts_assets\font-awesome\fonts\fontawesome-webfont3e6e.svg
+Content Type: image/svg+xml
+
+Uri: https://tezobank.com/page/view/assets/img/main-banner/banner-bg-2.jpg
+File Name: C:\Downloaded Web Sites\tezobank.com\page\view\assets\img\main-banner\banner-bg-2.jpg.html
+Content Type: text/html
+
+Uri: https://tezobank.com/page/view/page/view/contacts
+File Name: C:\Downloaded Web Sites\tezobank.com\page\view\page\view\contacts.html
+Content Type: text/html
+
+Uri: https://tezobank.com/assets/img/payment-box.png
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\payment-box.png
+Content Type: image/png
+
+Uri: https://tezobank.com/assets/img/credit-card/credit-card-1.png
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\credit-card\credit-card-1-1.png
+Content Type: image/png
+
+Uri: https://tezobank.com/assets/img/credit-card/credit-card-2.png
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\credit-card\credit-card-2-1.png
+Content Type: image/png
+
+Uri: https://tezobank.com/assets/img/using-card.png
+File Name: C:\Downloaded Web Sites\tezobank.com\assets\img\using-card.png
+Content Type: image/png
+
+Uri: https://tezobank.com/page/view/terms
+File Name: C:\Downloaded Web Sites\tezobank.com\page\view\terms.html
+Content Type: text/html
+
+Uri: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3014.8443973418493!2d-73.78427048433998!3d40.919157532852445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c28d85a1e3ed25:0xa4274d173ef7563b!2sThe Blvd%2C New Rochelle%2C NY 10801%2C USA!5e0!3m2!1sen!2sbd!4v1601545414990!5m2!1sen!2sbd
+File Name: C:\Downloaded Web Sites\tezobank.com\maps\embed.html
+Content Type: text/html
+
+Uri: https://api.whatsapp.com/
+File Name: C:\Downloaded Web Sites\tezobank.com\index-1.htm
+Content Type: text/html
+

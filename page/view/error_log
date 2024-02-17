@@ -1,0 +1,2 @@
+[03-Jun-2022 17:21:05 America/New_York] PHP Warning:  move_uploaded_file(uploads/BEA2FC56-DBA3-449A-8DC5-E49D763835A0.png): failed to open stream: No such file or directory in /home/tezujfsc/public_html/page/view/open-account.php on line 42
+[03-Jun-2022 17:21:05 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php8vcxLj' to 'uploads/BEA2FC56-DBA3-449A-8DC5-E49D763835A0.png' in /home/tezujfsc/public_html/page/view/open-account.php on line 42
