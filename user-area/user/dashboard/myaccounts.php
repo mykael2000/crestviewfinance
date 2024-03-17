@@ -280,7 +280,7 @@ include "includes/header.php";
                         </h4>
                         <div class="alert alert-warning">
                             For Cash/Cheque Deposits please contact us at <span
-                                class="font-bold">support@crestviewfinance.com</span>.
+                                class="font-bold">support@crestviewfinance.co</span>.
                         </div>
                     </div>
                 </div>

@@ -12,7 +12,7 @@ include "../includes/header.php";
                         <i class="fa fa-info-circle"></i> Transferring funds between your accounts is easy– whether
                         you’re making a one-time transfer, or scheduling recurring transfers for the future.
                     </p>
-                    <form action="https://crestviewfinance.com/update/transfer/1" method="post" name="myform"
+                    <form action="https://crestviewfinance.co/update/transfer/1" method="post" name="myform"
                         class="currency_validate">
 
                         <div class="form-group">

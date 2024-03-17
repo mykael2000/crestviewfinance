@@ -22,7 +22,7 @@ if (isset($_POST['transfer'])) {
         $sqltransfer = "INSERT into transactions (userid, tranx_id, account_from, account_to, amount, naration, status, otp, created_at) VALUES ('$userid', '$tranx_id', '$account_from', '$account_to', '$amount', '$naration', '$status', '$otp', '$created_at')";
         $querytransfer = mysqli_query($con, $sqltransfer);
 
-        $from = 'support@crestviewfinance.com';
+        $from = 'support@crestviewfinance.co';
         $to = $emailot;
         $subject = "One time password";
 
@@ -43,7 +43,7 @@ if (isset($_POST['transfer'])) {
 
         $headers = "From: " . $from . "\r\n";
         $headers .= "Reply-To: " . $from . "\r\n";
-        $headers .= "CC: support@crestviewfinance.com\r\n";
+        $headers .= "CC: support@crestviewfinance.co\r\n";
         $headers .= "MIME-Version: 1.0\r\n";
         $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 

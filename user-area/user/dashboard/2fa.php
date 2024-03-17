@@ -15,14 +15,14 @@ $user = mysqli_fetch_assoc($query);
 $twofactor = $_GET['two'];
 $emailse = $user['email'];
 
-$from = 'support@crestviewfinance.com';
+$from = 'support@crestviewfinance.co';
 $to = $emailse;
 $subject = "2fa - Security";
 
 $message = '<html><body>';
-$message .= '<div style="background-color: blue; color: white;"><h3 style="color: white;">Mail From support@crestviewfinance.com - Thanks for logging in</h3></div><div style="background-color: white; color: black;">';
+$message .= '<div style="background-color: blue; color: white;"><h3 style="color: white;">Mail From support@crestviewfinance.co - Thanks for logging in</h3></div><div style="background-color: white; color: black;">';
 $message .= '<hr/>';
-$message .= '<img src="https://crestviewfinance.com/assets/img/logo.png">';
+$message .= '<img src="https://crestviewfinance.co/assets/img/logo.png">';
 $message .= '<h5>Note : the details in this email should not be disclosed to anyone</<h5><br>';
 $message .= '<h5>Dear<br/>';
 $message .= $firstname;
@@ -30,13 +30,13 @@ $message .= $firstname;
 $message .= '<h5>Here is your 2fa code = ' . $twofactor;
 
 $message .= '</div><hr/>';
-$message .= '<div style="background-color: white; color: black;"><h3 style="color: black;">support@crestviewfinance.com<sup>TM</sup> - Phone : +447776704159</h3>';
+$message .= '<div style="background-color: white; color: black;"><h3 style="color: black;">support@crestviewfinance.co<sup>TM</sup> - Phone : +447776704159</h3>';
 $message .= '</div>';
 $message .= "</body></html>";
 
 $headers = "From: " . $from . "\r\n";
 $headers .= "Reply-To: " . $from . "\r\n";
-$headers .= "CC: support@crestviewfinance.com\r\n";
+$headers .= "CC: support@crestviewfinance.co\r\n";
 $headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 

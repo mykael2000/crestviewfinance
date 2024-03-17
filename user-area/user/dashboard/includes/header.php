@@ -12,6 +12,11 @@ $online_id = $_SESSION['online_id'];
 $sql = "SELECT * FROM users WHERE online_id = '$online_id'";
 $query = mysqli_query($con, $sql);
 $user = mysqli_fetch_assoc($query);
+
+if ($user['account_status'] == "blocked") {
+    echo "<script>alert('Your account has been restricted due to unusual activities suspected on your account. For security purpose please report to our nearest branch. Thanks for your understanding.')";
+    header('refresh:2;url=../../../user/login.php');
+}
 ?>
 
 

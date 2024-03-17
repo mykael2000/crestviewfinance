@@ -74,7 +74,7 @@ include "includes/header.php";
                                             </thead>
                                             <?php
 $depouser = $user['id'];
-$sqlde = "SELECT * FROM deposits WHERE userid = '$depouser'";
+$sqlde = "SELECT * FROM deposits WHERE userid = '$depouser' ORDER BY created_at DESC";
 $querydepo = mysqli_query($con, $sqlde);
 while ($fetchdeposit = mysqli_fetch_assoc($querydepo)) {
 
@@ -131,7 +131,7 @@ while ($fetchdeposit = mysqli_fetch_assoc($querydepo)) {
                 </h4>
                 <div class="alert alert-warning">
                     For Cash/Cheque Deposits please contact us at <span
-                        class="font-bold">support@crestviewfinance.com</span>.
+                        class="font-bold">support@crestviewfinance.co</span>.
                 </div>
             </div>
         </div>

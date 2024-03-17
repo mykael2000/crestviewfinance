@@ -55,7 +55,7 @@ include "includes/header.php";
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-5 col-xxl-6">
+                        <!-- <div class="col-lg-5 col-xxl-6">
                             <div class="alert alert-warning borderless">
                                 <h5 class="alert-heading">International Transfer Low Fees</h5>
                                 <p>You can now send money to your friends and family abroad with low fees.</p>
@@ -63,7 +63,7 @@ include "includes/header.php";
                                         href="../../user/dashboard/transfer/4.php"><i
                                             class="os-icon os-icon-ui-92"></i><span>Send Money Now</span></a></div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -136,7 +136,7 @@ while ($fetchtrans = mysqli_fetch_assoc($transquery)) {
                 </h4>
                 <div class="alert alert-warning">
                     For Cash/Cheque Deposits please contact us at <span
-                        class="font-bold">support@crestviewfinance.com</span>.
+                        class="font-bold">support@crestviewfinance.co</span>.
                 </div>
             </div>
         </div>

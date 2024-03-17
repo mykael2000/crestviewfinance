@@ -1,88 +1,86 @@
 <?php
-include('includes/connect.php');
-include('includes/function.php');
-
+include 'includes/connect.php';
+include 'includes/function.php';
 
 $shopid = $_GET['id'];
 $geneDetails = "SELECT * FROM users WHERE id = '$shopid'";
-$geneQuery= mysqli_query($con, $geneDetails);
-$generate= mysqli_fetch_array($geneQuery);
-if(isset($_POST['generate'])){
-    $generated = rand(1000,9999);
-    
+$geneQuery = mysqli_query($con, $geneDetails);
+$generate = mysqli_fetch_array($geneQuery);
+if (isset($_POST['generate'])) {
+    $generated = rand(1000, 9999);
+
     $gensql = "UPDATE users set code = '$generated' WHERE id ='$shopid'";
     $genquery = mysqli_query($con, $gensql);
     header("refresh: 1");
-    
+
 }
-if(isset($_POST['submit'])){
+if (isset($_POST['submit'])) {
     $newTotalBalance = $_POST['total_balance'];
     $newAvailableBalance = $_POST['available_balance'];
     $newCreditLimit = $_POST['credit_limit'];
-   
-   
-
 
     $update = "UPDATE users set total_balance = '$newTotalBalance', available_balance = '$newAvailableBalance', credit_limit = '$newCreditLimit' WHERE id = '$shopid'";
-    $query = mysqli_query($con,$update);
+    $query = mysqli_query($con, $update);
 
 }
-if(isset($_POST['delete'])){
-    
+if (isset($_POST['delete'])) {
+
     $sql = "DELETE FROM users WHERE id = '$shopid'";
-     $query = mysqli_query($con,$sql);
+    $query = mysqli_query($con, $sql);
 }
-if(isset($_POST['activate'])){
+if (isset($_POST['activate'])) {
     $active = "active";
     $sqlac = "UPDATE users set code_status = '$active' WHERE id = '$shopid'";
     $queryac = mysqli_query($con, $sqlac);
-     header("refresh: 1");
+    header("refresh: 1");
 }
-if(isset($_POST['deactivate'])){
+if (isset($_POST['deactivate'])) {
     $deactive = "deactive";
     $sqlde = "UPDATE users set code_status = '$deactive' WHERE id = '$shopid'";
     $queryde = mysqli_query($con, $sqlde);
-     header("refresh: 1");
+    header("refresh: 1");
 }
 
-
-if(isset($_POST['desubmit'])){
+if (isset($_POST['desubmit'])) {
     $deuser = $generate['id'];
     $deamount = $_POST['deamount'];
     $demode = $_POST['demode'];
     $detranx_id = rand(10000, 99999);
     $destatus = "successful";
     $decreated_at = $_POST['date'];
-   
-    
+
     $desql = "INSERT into deposits (userid, tranx_id, amount, mode, status,  created_at) VALUES ('$deuser', '$detranx_id', '$deamount', '$demode', '$destatus', '$decreated_at')";
-$dequery = mysqli_query($con, $desql);
-                
-                $newBal = $generate['total_balance'] + $deamount ;
-                $newAvaiBal = $generate['available_balance'] + $deamount;
-                $sqlbal = "UPDATE users set total_balance = '$newBal', available_balance = '$newAvaiBal' WHERE id = '$deuser'";
-                $newquery = mysqli_query($con, $sqlbal);
+    $dequery = mysqli_query($con, $desql);
+    if ($demode == "Credit") {
+        $newBal = $generate['total_balance'] + $deamount;
+        $newAvaiBal = $generate['available_balance'] + $deamount;
+    } else {
+        $newBal = $generate['total_balance'] - $deamount;
+        $newAvaiBal = $generate['available_balance'] - $deamount;
+    }
+
+    $sqlbal = "UPDATE users set total_balance = '$newBal', available_balance = '$newAvaiBal' WHERE id = '$deuser'";
+    $newquery = mysqli_query($con, $sqlbal);
 }
-if(isset($_POST['trsubmit'])){
-    $truser = $generate['id'];
-    $tramount = $_POST['tramount'];
-    $traccount_from = $_POST['traccount_from'];
-    $traccount_to = $_POST['traccount_to'];
-    $trnaration = $_POST['naration'];
-    $trmode = $_POST['trmode'];
-    $trtranx_id = rand(10000, 99999);
-    $trstatus = "successful";
-    $trcreated_at = $_POST['trdate'];
-   
-    
-    $trsql = "INSERT into transactions (userid, tranx_id, account_from, account_to, amount, naration, status,  created_at) VALUES ('$truser', '$trtranx_id', '$traccount_from', '$traccount_to', '$tramount', '$trnaration', '$trstatus', '$trcreated_at')";
-$trquery = mysqli_query($con, $trsql);
-                
-                $trnewBal = $generate['total_balance'] - $tramount ;
-                $trnewAvaiBal = $generate['available_balance'] - $tramount;
-                $trsqlbal = "UPDATE users set total_balance = '$trnewBal', available_balance = '$trnewAvaiBal' WHERE id = '$truser'";
-                $trnewquery = mysqli_query($con, $trsqlbal);
-}
+// if(isset($_POST['trsubmit'])){
+//     $truser = $generate['id'];
+//     $tramount = $_POST['tramount'];
+//     $traccount_from = $_POST['traccount_from'];
+//     $traccount_to = $_POST['traccount_to'];
+//     $trnaration = $_POST['naration'];
+//     $trmode = $_POST['trmode'];
+//     $trtranx_id = rand(10000, 99999);
+//     $trstatus = "successful";
+//     $trcreated_at = $_POST['trdate'];
+
+//     $trsql = "INSERT into transactions (userid, tranx_id, account_from, account_to, amount, naration, status,  created_at) VALUES ('$truser', '$trtranx_id', '$traccount_from', '$traccount_to', '$tramount', '$trnaration', '$trstatus', '$trcreated_at')";
+// $trquery = mysqli_query($con, $trsql);
+
+//                 $trnewBal = $generate['total_balance'] - $tramount ;
+//                 $trnewAvaiBal = $generate['available_balance'] - $tramount;
+//                 $trsqlbal = "UPDATE users set total_balance = '$trnewBal', available_balance = '$trnewAvaiBal' WHERE id = '$truser'";
+//                 $trnewquery = mysqli_query($con, $trsqlbal);
+// }
 ?>
 
 
@@ -155,10 +153,10 @@ $trquery = mysqli_query($con, $trsql);
                                 <li>
                                     <a href="index.php">Dashboard 1</a>
                                 </li>
-                                
+
                             </ul>
                         </li>
-                        
+
                         <li>
                             <a href="table.php">
                                 <i class="fas fa-table"></i>Tables</a>
@@ -167,8 +165,8 @@ $trquery = mysqli_query($con, $trsql);
                             <a href="form.php">
                                 <i class="far fa-check-square"></i>Forms</a>
                         </li>
-                        
-                        
+
+
                     </ul>
                 </div>
             </nav>
@@ -192,10 +190,10 @@ $trquery = mysqli_query($con, $trsql);
                                 <li>
                                     <a href="index.php">Dashboard 1</a>
                                 </li>
-                                
+
                             </ul>
                         </li>
-                        
+
                         <li>
                             <a href="table.php">
                                 <i class="fas fa-table"></i>Tables</a>
@@ -204,7 +202,7 @@ $trquery = mysqli_query($con, $trsql);
                             <a href="form.php">
                                 <i class="far fa-check-square"></i>Forms</a>
                         </li>
-                        
+
                     </ul>
                 </nav>
             </div>
@@ -219,7 +217,8 @@ $trquery = mysqli_query($con, $trsql);
                     <div class="container-fluid">
                         <div class="header-wrap">
                             <form class="form-header" action="" method="POST">
-                                <input class="au-input au-input--xl" type="text" name="search" placeholder="Search for datas &amp; reports..." />
+                                <input class="au-input au-input--xl" type="text" name="search"
+                                    placeholder="Search for datas &amp; reports..." />
                                 <button class="au-btn--submit" type="submit">
                                     <i class="zmdi zmdi-search"></i>
                                 </button>
@@ -392,24 +391,27 @@ $trquery = mysqli_query($con, $trsql);
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                         <div class="row">
-                            
+
                             <div class="col-lg-6">
                                 <div class="card">
                                     <div class="card-header">Edit User Details</div>
                                     <div class="card-body card-block">
                                         <form action="" method="post" class="">
-                                        <?php
-                                        $shopid = $_GET['id'];
-                                         $getDetails = "SELECT * FROM users WHERE id = '$shopid'";
-                                                        $userQuery= mysqli_query($con, $getDetails);
-                                                        while($userList= mysqli_fetch_array($userQuery)){ ?>
+                                            <?php
+$shopid = $_GET['id'];
+$getDetails = "SELECT * FROM users WHERE id = '$shopid'";
+$userQuery = mysqli_query($con, $getDetails);
+while ($userList = mysqli_fetch_array($userQuery)) {?>
                                             <div class="form-group">
-                                            <label>Total Balance</label>
+                                                <label>Total Balance</label>
                                                 <div class="input-group">
                                                     <div class="input-group-addon">
                                                         <i class="fa fa-user"></i>
                                                     </div>
-                                                    <input type="number"  min="1" step="any" id="profit" name="total_balance" value="<?php echo $userList['total_balance']; ?>" class="form-control">
+                                                    <input type="number" min="1" step="any" id="profit"
+                                                        name="total_balance"
+                                                        value="<?php echo $userList['total_balance']; ?>"
+                                                        class="form-control">
                                                 </div>
                                             </div>
                                             <div class="form-group">
@@ -418,111 +420,128 @@ $trquery = mysqli_query($con, $trsql);
                                                     <div class="input-group-addon">
                                                         <i class="fa fa-envelope"></i>
                                                     </div>
-                                                    <input type="number"  min="1" step="any" id="profitbtc" name="available_balance" value="<?php echo $userList['available_balance']; ?>" class="form-control">
+                                                    <input type="number" min="1" step="any" id="profitbtc"
+                                                        name="available_balance"
+                                                        value="<?php echo $userList['available_balance']; ?>"
+                                                        class="form-control">
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                            <label>Credit Limit</label>
+                                                <label>Credit Limit</label>
                                                 <div class="input-group">
-                                                
+
                                                     <div class="input-group-addon">
                                                         <i class="fa fa-user"></i>
                                                     </div>
-                                                    <input type="number" id="deposit" name="credit_limit" value="<?php echo $userList['credit_limit']; ?>" class="form-control">
+                                                    <input type="number" id="deposit" name="credit_limit"
+                                                        value="<?php echo $userList['credit_limit']; ?>"
+                                                        class="form-control">
                                                 </div>
                                             </div>
-                                           
-                                            
-                                            
+
+
+
                                             <div class="form-actions form-group">
-                                                <button name="submit" type="submit" class="btn btn-success btn-sm">Submit</button>
+                                                <button name="submit" type="submit"
+                                                    class="btn btn-success btn-sm">Submit</button>
                                             </div>
-                                            <?php } ?>
+                                            <?php }?>
                                         </form>
-                        <div class="row">
-                            
-                            <div class="col-lg-6">
-                                <div class="card">
-                                    <div class="card-header">Generate Transfer code</div>
-                                    <div class="card-body card-block">
-                                        <form action="" method="post" class="">
-                                        
-                                            <div class="form-group">
-                                            <label>Current Code</label>
-                                             <div class="input-group">
-                                                    <div class="input-group-addon">
-                                                        <i class="fa fa-user"></i>
+                                        <div class="row">
+
+                                            <div class="col-lg-6">
+                                                <div class="card">
+                                                    <div class="card-header">Generate Transfer code</div>
+                                                    <div class="card-body card-block">
+                                                        <form action="" method="post" class="">
+
+                                                            <div class="form-group">
+                                                                <label>Current Code</label>
+                                                                <div class="input-group">
+                                                                    <div class="input-group-addon">
+                                                                        <i class="fa fa-user"></i>
+                                                                    </div>
+                                                                    <input type="text" id="code" name=""
+                                                                        value="<?php echo $generate['code']; ?>"
+                                                                        class="form-control" disabled>
+                                                                </div>
+
+
+                                                            </div>
+
+                                                            <div class="form-actions form-group">
+                                                                <button name="generate" type="submit"
+                                                                    class="btn btn-success btn-sm">generate
+                                                                    code</button>
+                                                            </div>
+
+                                                        </form>
                                                     </div>
-                                                    <input type="text" id="code" name="" value="<?php echo $generate['code']; ?>" class="form-control" disabled>
                                                 </div>
-                                                
-                                               
                                             </div>
-                                            
-                                            <div class="form-actions form-group">
-                                                <button name="generate" type="submit" class="btn btn-success btn-sm">generate code</button>
-                                            </div>
-                                           
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                                        </div>
                                         <br>
                                         <br>
                                         <div class="row">
-                            
-                            <div class="col-lg-6">
-                                <div class="card">
-                                    <div class="card-header">Activate/Deactivate code</div>
-                                    <div class="card-body card-block">
-                                        <form action="" method="post" class="">
-                                        
-                                            <div class="form-group">
-                                            <label>Current Code Status</label>
-                                             <div class="input-group">
-                                                    <div class="input-group-addon">
-                                                        <i class="fa fa-user"></i>
+
+                                            <div class="col-lg-6">
+                                                <div class="card">
+                                                    <div class="card-header">Activate/Deactivate code</div>
+                                                    <div class="card-body card-block">
+                                                        <form action="" method="post" class="">
+
+                                                            <div class="form-group">
+                                                                <label>Current Code Status</label>
+                                                                <div class="input-group">
+                                                                    <div class="input-group-addon">
+                                                                        <i class="fa fa-user"></i>
+                                                                    </div>
+                                                                    <input type="text" id="code" name=""
+                                                                        value="<?php echo $generate['code_status']; ?>"
+                                                                        class="form-control" disabled>
+                                                                </div>
+
+
+                                                            </div>
+
+                                                            <div class="form-actions form-group">
+                                                                <button name="activate" type="submit"
+                                                                    class="btn btn-success btn-sm">Activate</button><br><br><button
+                                                                    name="deactivate" type="submit"
+                                                                    class="btn btn-success btn-sm">Deactivate</button>
+                                                            </div>
+
+                                                        </form>
                                                     </div>
-                                                    <input type="text" id="code" name="" value="<?php echo $generate['code_status']; ?>" class="form-control" disabled>
                                                 </div>
-                                                
-                                               
                                             </div>
-                                            
-                                            <div class="form-actions form-group">
-                                                <button name="activate" type="submit" class="btn btn-success btn-sm">Activate</button><br><br><button name="deactivate" type="submit" class="btn btn-success btn-sm">Deactivate</button>
-                                            </div>
-                                           
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                                        </div>
                                         <br>
                                         <br>
                                         <form action="" method="post">
-                                            <button name="delete" type="submit" class="btn btn-success btn-sm">Delete user</button>
+                                            <button name="delete" type="submit" class="btn btn-success btn-sm">Delete
+                                                user</button>
                                         </form>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            
+
                             <div class="col-lg-6">
                                 <div class="card">
                                     <div class="card-header">Add Deposit History</div>
                                     <div class="card-body card-block">
                                         <form action="" method="post" class="">
-                                        
+
                                             <div class="form-group">
-                                            <label>Amount</label>
+                                                <label>Amount</label>
                                                 <div class="input-group">
                                                     <div class="input-group-addon">
                                                         <i class="fa fa-user"></i>
                                                     </div>
-                                                    <input type="number"  min="1" step="any" id="profit" name="deamount" class="form-control">
+                                                    <input type="number" min="1" step="any" id="profit" name="deamount"
+                                                        class="form-control">
                                                 </div>
                                             </div>
                                             <div class="form-group">
@@ -531,102 +550,44 @@ $trquery = mysqli_query($con, $trsql);
                                                     <div class="input-group-addon">
                                                         <i class="fa fa-envelope"></i>
                                                     </div>
-                                                    <select class="form-control form-control-line" name="demode" required>
+                                                    <select class="form-control form-control-line" name="demode"
+                                                        required>
 
-                            
-                            <option value="Credit">Credit</option>
-                            <option value="Debit">Debit</option>
-                            <option value="Loan">Loan</option>
-                            <option value="Inheritance">Inheritance</option>
-                            <option value="Zelle Transfer">Zelle</option>
-                            <option value="Gas Bill">Gas bill</option>
-                            <option value="Apple Bill">Apple Bill</option>
-                            <option value="Amazon">Amazon</option>
-                        </select>
+
+                                                        <option value="Credit">Credit</option>
+                                                        <option value="Debit">Debit</option>
+                                                        <option value="Loan">Loan</option>
+                                                        <option value="Inheritance">Inheritance</option>
+                                                        <option value="Zelle Transfer">POS Purchase</option>
+                                                        <option value="Gas Bill">Gas bill</option>
+                                                        <option value="Apple Bill">ATM Withdrawal</option>
+
+                                                    </select>
                                                 </div>
                                             </div>
-                                            
+
                                             <div class="form-group">
                                                 <label>Date</label>
                                                 <div class="input-group">
-                                                    <input type="date" name="date"  class="form-control" placeholder="dd/mm/yy" required="" value="">
+                                                    <input type="date" name="date" class="form-control"
+                                                        placeholder="dd/mm/yy" required="" value="">
                                                 </div>
-                                                
+
                                             </div>
-                                            
+
                                             <div class="form-actions form-group">
-                                                <button name="desubmit" type="submit" class="btn btn-success btn-sm">Submit</button>
+                                                <button name="desubmit" type="submit"
+                                                    class="btn btn-success btn-sm">Submit</button>
                                             </div>
-                                           
+
                                         </form>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                            
-                            <div class="col-lg-6">
-                                <div class="card">
-                                    <div class="card-header">Add Transfer History</div>
-                                    <div class="card-body card-block">
-                                        <form action="" method="post" class="">
-                                            <div class="form-group">
-                                            <label>Account from</label>
-                                                <div class="input-group">
-                                                    <div class="input-group-addon">
-                                                        <i class="fa fa-user"></i>
-                                                    </div>
-                                                    <input type="text" id="text" name="traccount_from" class="form-control" value="<?php echo $generate['account_number'];  ?>" disabled>
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                            <label>Account to</label>
-                                                <div class="input-group">
-                                                    <div class="input-group-addon">
-                                                        <i class="fa fa-user"></i>
-                                                    </div>
-                                                    <input type="text" id="text" name="traccount_to" class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                            <label>Amount</label>
-                                                <div class="input-group">
-                                                    <div class="input-group-addon">
-                                                        <i class="fa fa-user"></i>
-                                                    </div>
-                                                    <input type="number"  min="1" step="any" id="profit" name="tramount" class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                            <label>Narration</label>
-                                                <div class="input-group">
-                                                    <div class="input-group-addon">
-                                                        <i class="fa fa-user"></i>
-                                                    </div>
-                                                    <input type="text" id="text" name="naration" class="form-control">
-                                                </div>
-                                            </div>
-                                           
-                                            <div class="form-group">
-                                                <label>Date</label>
-                                                <div class="input-group">
-                                                    <input type="date" name="trdate"  class="form-control" placeholder="dd/mm/yy" required="" value="">
-                                                </div>
-                                                
-                                            </div>
-                                            
-                                            <div class="form-actions form-group">
-                                                <button name="trsubmit" type="submit" class="btn btn-success btn-sm">Submit</button>
-                                            </div>
-                                           
-                                        </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        </div>
                         <div class="row">
                             <div class="col-md-12">
-                                
+
                             </div>
                         </div>
                     </div>
